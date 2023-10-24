@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// defined
+:root {
+    // background-color
+    --bg-primary: #0c0c1d;
+
+    // color 
+    --color-primary: lightgray;
+    --color-white: white;
+    --color-black: black;
+
+    // font-family
+    --font-family: 'DM Sans', sans-serif;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+
+    font-size: 62.5%;
+}
+
+/* default */
+body {
+    background-color: var(--bg-primary);
+    color: var(--color-primary);
+    font-family: var(--font-family);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}

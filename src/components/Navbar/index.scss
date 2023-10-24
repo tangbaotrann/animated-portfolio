@@ -1,0 +1,24 @@
+.navbar {
+    height: 100px;
+    
+    .wrapper {
+        max-width: 1366px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        
+        .social {
+            padding: 0 10px;
+
+            .social-icon {
+                width: 24px;
+                height: 24px;
+                object-fit: cover;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
