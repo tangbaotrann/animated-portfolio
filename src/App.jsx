@@ -20,7 +20,7 @@ function App() {
         <p>section About</p>
       </section>
       <section>
-        <p>ci/cd</p>
+        <p>ci/cd test2</p>
       </section>
     </>
   );
