@@ -19,6 +19,9 @@ function App() {
       <section id="About">
         <p>section About</p>
       </section>
+      <section>
+        <p>CI/CD</p>/p>
+      </section>
     </>
   );
 }
