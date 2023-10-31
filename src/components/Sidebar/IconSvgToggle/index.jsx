@@ -2,7 +2,13 @@ import { motion } from "framer-motion";
 
 function IconSvgToggle() {
   return (
-    <svg width="23" height="23" viewBox="0 0 23 23" className="svg-icon">
+    <motion.svg
+      width="23"
+      height="23"
+      viewBox="0 0 23 23"
+      className="svg-icon"
+      whileHover={{ scale: 1.1 }}
+    >
       <motion.path
         strokeWidth="3"
         stroke="black"
@@ -43,7 +49,7 @@ function IconSvgToggle() {
           },
         }}
       />
-    </svg>
+    </motion.svg>
   );
 }
 

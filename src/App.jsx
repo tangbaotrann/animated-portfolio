@@ -1,11 +1,14 @@
 import "./index.scss";
 import Navbar from "./components/Navbar";
+import Home from "./components/Sections/Home";
 
 function App() {
   return (
     <>
       <section id="Homepage">
         <Navbar />
+
+        <Home />
       </section>
       <section id="Services">
         <p>section Services</p>

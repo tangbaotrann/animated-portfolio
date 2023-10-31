@@ -1,0 +1,68 @@
+.home {
+    position: relative;
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    overflow: hidden;
+
+    // Left
+    .left {
+        width: 1366px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+
+        h1 {
+            font-size: 42px;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: lightblue;
+            letter-spacing: 10px;
+        }
+
+        .buttons {
+
+            button {
+                padding: 20px;
+                margin-right: 20px;
+                font-weight: 600;
+                color: white;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+
+
+        .img-scroll {
+            width: 42px;
+            height: 42px;
+            object-fit: cover;
+        }
+    }
+
+    // Sliding text 
+    .sliding-text {
+        position: absolute;
+        font-size: 50vh;
+        bottom: -72px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 50%;
+        font-weight: bold;
+    }
+
+    // Right
+    .img-hero {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        object-fit: cover;
+    }   
+}

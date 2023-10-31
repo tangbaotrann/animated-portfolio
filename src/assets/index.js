@@ -1,3 +1,4 @@
+// icons
 const socialIcons = [
   {
     id: "fb",
@@ -17,4 +18,10 @@ const socialIcons = [
   },
 ];
 
-export { socialIcons };
+// images
+const images = {
+  homeHero: require("./hero.png"),
+  homeScroll: require("./scroll.png"),
+};
+
+export { socialIcons, images };
